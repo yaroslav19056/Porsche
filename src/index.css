@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "caledo";
+  src: url("/fonts/Caledo_bold.woff2") format("woff2"),
+    url("/fonts/Caledo_bold.woff") format("woff");
+  font-display: swap;
+}
+
+@theme {
+  --font-caledo: "caledo", sans-serif;
+}
+
+@font-face {
+  font-family: "Sturkopf";
+  src: url("/fonts/Sturkopf.woff2") format("woff2"),
+    url("/fonts/Sturkopf.woff") format("woff");
+  font-display: swap;
+}
+
+@theme {
+  --font-sturkopf: "Sturkopf", sans-serif;
+}
+
+@font-face {
+  font-family: "handwriting";
+  src: url("/fonts/DancingScriptOT.woff2") format("woff2"),
+    url("/fonts/DancingScriptOT.woff") format("woff");
+  font-display: swap;
+}
+
+@theme {
+  --font-handwriting: "handwriting", sans-serif;
+}
+
+@font-face {
+  font-family: "ttnorms";
+  src: url("/fonts/TTNorms-Black.woff2") format("woff2"),
+    url("/fonts/TTNorms-Black.woff") format("woff");
+  font-display: swap;
+}
+
+@theme {
+  --font-ttnorms: "ttnorms", sans-serif;
+}
+
+@layer base {
+  .words-stroke-2 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+  }
+}
+
+@font-face {
+  font-family: "teko";
+  src: url("/fonts/teko-semibold.woff2") format("woff2"),
+    url("/fonts/teko-semibold.woff") format("woff");
+  font-display: swap;
+}
+
+@theme {
+  --font-teko: "teko", sans-serif;
+}
+
+@font-face {
+  font-family: "tuskerGrot";
+  src: url("/fonts/tusker-grotesk-2600-semibold.woff2") format("woff2"),
+    url("/fonts/tusker-grotesk-2600-semibold.woff") format("woff");
+  font-display: swap;
+}
+
+@theme {
+  --font-tuskerGrot: "tuskerGrot", sans-serif;
+}
