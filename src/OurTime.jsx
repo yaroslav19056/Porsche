@@ -19,17 +19,17 @@ export default function OurTime() {
       <div className="flex flex-col w-full gap-5 absolute z-50 bottom-0">
         <div className="flex flex-row max-[930px]:flex-col justify-around items-center">
           <img
-            src="src/assets/WEC-logo.png"
+            src="/assets/WEC-logo.png"
             alt=" wec logo"
             className="w-[450px] max-[1385px]:w-[300px]"
           />
           <img
-            src="src/assets/963model.png"
+            src="/assets/963model.png"
             alt="963 model image"
             className="w-[435px] max-[1385px]:w-[285px]"
           />
           <img
-            src="src/assets/IMSA-logo.png"
+            src="/assets/IMSA-logo.png"
             alt=" imsa logo"
             className="w-[450px] max-[1385px]:w-[300px]"
           />
