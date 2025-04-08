@@ -4,7 +4,7 @@ export default function OurTime() {
   return (
     <div className="relative w-full h-screen bg-[#232426] flex flex-col items-center overflow-clip">
       <img
-        src="src/assets/red-ragged-strip.png"
+        src="/assets/red-ragged-strip.png"
         alt="gray ragged strip image"
         className="w-full absolute left-0 right-0 z-40 -top-10 max-[1000px]:top-0 rotate-180"
       />

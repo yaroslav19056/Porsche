@@ -16,7 +16,7 @@ export default function Formula1() {
           </p>
         </div>
         <img
-          src="src/assets/imgWith804.png"
+          src="/assets/imgWith804.png"
           alt="design info image"
           className="w-[94vw] absolute bottom-10 max-md:hidden"
         />

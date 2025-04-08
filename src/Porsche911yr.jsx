@@ -6,7 +6,7 @@ export default function Porsche911yr() {
       <div className="flex flex-row justify-between">
         <div className=" ml-32 flex flex-col-reverse items-stretch justify-between bg-[#FFB300] h-[120px]">
           <img
-            src="src/assets/porsche-logo-word.svg"
+            src="/assets/porsche-logo-word.svg"
             alt="porsche logo word image"
             className="w-[300px] max-xl:hidden"
           />
@@ -31,13 +31,13 @@ export default function Porsche911yr() {
           around $90,000 to over $200,000.
         </p>
         <img
-          src="src/assets/911model.png"
+          src="/assets/911model.png"
           alt=" 911 model image"
           className="w-[45%] right-28 max-xl:left-28 max-md:left-10 -mt-10 max-xl:mt-[450px] max-md:mt-[590px] max-xl:w-[60%] max-lg:w-[80%] absolute"
         />
       </div>
       <img
-        src="src/assets/Finish-Line.png"
+        src="/assets/Finish-Line.png"
         alt=" finish line image"
         className="w-full absolute -mt-20 max-[1700px]:-mt-10 max-[1600px]:mt-30 max-[1470px]:mt-34 max-[1454px]:mt-26 max-[1376px]:mt-20 max-[1280px]:mt-[520px] max-[1220px]:hidden z-0"
       />

@@ -4,7 +4,7 @@ export default function WhereItAllBegan() {
   return (
     <div className="bg-[#626262] w-full h-[290vh] overflow-clip">
       <img
-        src="src/assets/Gray-ragged-strip.png"
+        src="/assets/Gray-ragged-strip.png"
         alt="gray ragged strip image"
         className="w-full absolute left-0 right-0 z-40 2xl:-mt-10 xl:-mt-16 lg:-mt-14 md:-mt-17 min-[850px]:-mt-8 sm:-mt-16 max-[640px]:-mt-14"
       />
@@ -14,12 +14,12 @@ export default function WhereItAllBegan() {
       </h2>
 
       <img
-        src="src/assets/FerdinandPorsche.png"
+        src="/assets/FerdinandPorsche.png"
         alt="Ferdinand Porsche image"
         className="w-[530px] max-2xl:w-[400px] max-lg:w-[300px] absolute right-[40%] max-xl:right-[10%] max-lg:right-[50%] mt-[30%] max-xl:mt-[20%] max-lg:mt-[40%] -rotate-5 border-[2px] border-[#FFFFFF]"
       />
       <img
-        src="src/assets/arrow.png"
+        src="/assets/arrow.png"
         alt="arrow image"
         className="w-[275px] max-2xl:mt-[35%] absolute right-[27%] mt-[40%] max-xl:hidden"
       />
@@ -62,12 +62,12 @@ export default function WhereItAllBegan() {
         </p>
       </div>
       <img
-        src="src/assets/FerryPorsche.png"
+        src="/assets/FerryPorsche.png"
         alt="Ferry Porsche image"
         className="h-[530px] max-lg:h-[300px] top-[318.6vh] left-[-5%] absolute drop-shadow-[5px_-5px_0_#FFFFFF] object-cover"
       />
       <img
-        src="src/assets/arrow.png"
+        src="/assets/arrow.png"
         alt="arrow image"
         className="w-[500px] h-[200px] absolute right-[40%] mt-[128%] scale-y-[-1] max-2xl:hidden"
       />

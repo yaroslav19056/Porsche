@@ -6,7 +6,7 @@ export default function Starting() {
         PORSCHE
       </h1>
       <img
-        src="src/assets/porsche.png"
+        src="/assets/porsche.png"
         alt="porshe image"
         className="w-full bottom-0 left-0 absolute"
       />
@@ -57,7 +57,7 @@ function StarterFooter() {
         </div>
 
         <img
-          src="src/assets/Porsche-Logo.png"
+          src="/assets/Porsche-Logo.png"
           alt="Porsche logo image"
           className="w-[100px] h-[130px] max-2xl:hidden"
         />
@@ -73,13 +73,13 @@ function StarterFooter() {
             window.open("https://www.youtube.com/watch?v=nT2mjvWC3e8")
           }>
           <img
-            src="src/assets/triangle.png"
+            src="/assets/triangle.png"
             alt="triangle"
             className="w-[20px] h-[20px] ml-[3px]"
           />
         </div>
         <img
-          src="src/assets/preview.png"
+          src="/assets/preview.png"
           alt="video preview"
           className="h-[100px] w-[200px] absolute right-16 bottom-26 hover:cursor-pointer"
           onClick={() =>

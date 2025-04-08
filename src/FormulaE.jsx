@@ -4,7 +4,7 @@ export default function FormulaE() {
   return (
     <div className="relative w-full h-screen bg-[#D64C4D]">
       <img
-        src="src/assets/red-ragged-strip.png"
+        src="/assets/red-ragged-strip.png"
         alt=" red ragged strip image"
         className="w-full max-[560px]:w-[150vw] object-cover absolute left-0 z-40 -top-30 max-[1110px]:-top-20 max-md:-top-14 max-[535px]:mt-6 max-[290px]:mt-10"
       />
@@ -13,7 +13,7 @@ export default function FormulaE() {
           FORMULA E
         </h1>
         <img
-          src="src/assets/AndreLotterer.png"
+          src="/assets/AndreLotterer.png"
           alt="Andre Lotterer image"
           className="w-[500px] max-[1700px]:w-[450px] max-[970px]:w-[380px] max-[880px]:w-[260px] max-[400px]:w-[200px]"
         />

@@ -13,7 +13,7 @@ export default function PorscheAutosport() {
         <div className="w-[60%] max-sm:w-full h-[22px] max-xl:h-[15px] max-sm:h-[13px] bg-[#232426] bottom-6 max-2xl:bottom-0 absolute"></div>
       </div>
       <img
-        src="src/assets/911andGT3.png"
+        src="/assets/911andGT3.png"
         alt=" 911 and GT3 model image"
         className="absolute right-36 max-2xl:right-[500px] max-xl:right-[400px] max-lg:right-[300px] max-[850px]:left-10 bottom-16 max-2xl:bottom-36 max-xl:bottom-40 w-[40%] max-xl:w-[60%] max-[850px]:w-[100%] max-sm:w-[80vw]"
       />
