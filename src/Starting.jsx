@@ -2,7 +2,7 @@ export default function Starting() {
   return (
     <div className="flex flex-col items-center">
       <Header />
-      <h1 className="text-[700px] font-caledo leading-[740px] text-start overflow-clip text-[#3D3D3D] 2xl:text-[550px] xl:text-[450px] lg:text-[350px] max-md:text-[0px]">
+      <h1 className="text-[700px] font-caledo leading-[740px] text-start overflow-clip text-[#3D3D3D] max-2xl:text-[550px] max-xl:text-[450px] max-lg:text-[350px] max-md:text-[0px]">
         PORSCHE
       </h1>
       <img
